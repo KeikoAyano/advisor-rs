@@ -1,0 +1,15 @@
+[package]
+name = "divisor-rs"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["Sicheng Zhong"]
+exclude = ["target/", "Cargo.lock"]
+readme = "README.md"
+description = "Program to Find Least Common Multiple"
+
+[dependencies]
+cxx = "1.0"
+
+[build-dependencies]
+cxx-build = "1.0"
